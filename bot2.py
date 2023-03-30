@@ -1,9 +1,7 @@
 import logging
-
 from aiogram import Bot, Dispatcher, executor, types
 import aiogram.utils.markdown as fmt
 from aiogram.dispatcher.filters import CommandHelp, CommandStart, Text
-
 from config import BOT_TOKEN
 bot = Bot(token=BOT_TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
